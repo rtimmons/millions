@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  notes: MyText
+  category: MyText
+  rank: 1
+  gut_cost: 9.99
+
+two:
+  title: MyString
+  notes: MyText
+  category: MyText
+  rank: 1
+  gut_cost: 9.99

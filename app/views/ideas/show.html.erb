@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @idea.title %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @idea.notes %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @idea.category %>
+</p>
+
+<p>
+  <strong>Rank:</strong>
+  <%= @idea.rank %>
+</p>
+
+<p>
+  <strong>Gut cost:</strong>
+  <%= @idea.gut_cost %>
+</p>
+
+<%= link_to 'Edit', edit_idea_path(@idea) %> |
+<%= link_to 'Back', ideas_path %>
